@@ -12,7 +12,7 @@ var upload = multer({ dest: "uploads/" });
 
 var results = [];
 app.get('/', function (req, res) {
-    res.send('API Node está funcionando corretamente!!!');
+    res.send('API Node está funcionando corretamente!!!!');
 });
 //
 app.get("/api/reset", function (req, res) {

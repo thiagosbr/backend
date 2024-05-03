@@ -25,7 +25,7 @@ let results: {
 }[] = [];
 
 app.get('/', (req, res) => {
-  res.send('API Node está funcionando corretamente!!!');
+  res.send('API Node está funcionando corretamente!!!!!');
 });
 //
 app.get("/api/reset", (req: any, res: any) => {
